@@ -1,0 +1,290 @@
+/* Adding Styles to out Backtracking Page */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+h1 {
+    margin: 0px;
+}
+
+.copy {
+    margin: 0px;
+}
+
+.tree {
+    display: block;
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+.heading {
+    margin-top: 38px;
+    margin-bottom: 16px;
+}
+
+pre {
+    color: #660000;
+    font-size: 16px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+code {
+    color: #660000;
+    font-size: 16px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.prefont {
+    color: #0000ff;
+    font-size: 16px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+dd {
+    /* margin: 0px 0px 0px 40px; */
+    padding-bottom: 20px;
+}
+
+
+/* Table Style for 1st Simple Table */
+
+.high {
+    height: 24px;
+}
+
+.next {
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+/* Table Style for next 2 img Table */
+
+.tablestyle {
+    background-color: #dddddd;
+    border: 1px solid black;
+}
+
+.tdprop {
+    box-sizing: border-box;
+    width: 58px;
+    height: 58px;
+    border: 1px solid black;
+    padding-bottom: 2px;
+}
+
+.imgprop {
+    width: 44px;
+    height: 44px;
+    align-items: center;
+}
+
+
+/* Table Style for 3rd table collectioin */
+
+.tablestyle2 {
+    background-color: #dddddd;
+    margin-bottom: 20px;
+}
+
+.design {
+    background-color: white;
+    border-style: hidden;
+    width: 150px;
+}
+
+.tdprop2 {
+    box-sizing: border-box;
+    width: 58px;
+    height: 52px;
+    border: 1px solid black;
+    padding-bottom: 2px;
+    border-collapse: collapse;
+}
+
+.stuck {
+    padding-right: 400px;
+}
+
+
+/* Styling the last table */
+
+.numberstyle {
+    color: #0000ff;
+    font-size: 16px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-align: right;
+    padding-right: 7px;
+}
+
+.styletd {
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    padding-right: 5px;
+}
+
+
+/* Adding Media Queries */
+
+@media screen and (min-width:0px) and (max-width: 269px) {
+    pre {
+        display: none;
+    }
+    img {
+        width: 80%;
+        height: auto;
+    }
+    table {
+        display: none;
+    }
+}
+
+@media screen and (min-width:270px) and (max-width: 320px) {
+    pre {
+        font-size: 5px;
+    }
+    .next {
+        font-size: 8px;
+    }
+    img {
+        width: 60%;
+        height: auto;
+    }
+    table {
+        width: auto;
+        height: auto;
+    }
+    .tdprop2 {
+        width: 40px;
+        height: 35px;
+    }
+    .imgprop {
+        width: 25px;
+        height: 25px;
+    }
+    .tdprop {
+        width: 38px;
+        height: 38px;
+    }
+    .design {
+        width: 70px;
+        font-size: 10px;
+    }
+    .stuck {
+        font-size: 10px;
+        padding-right: 290px;
+    }
+    .numberstyle {
+        font-size: 6px;
+    }
+    .styletd {
+        font-size: 6px;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width: 449px) {
+    pre {
+        font-size: 6px;
+    }
+    .next {
+        font-size: 9px;
+    }
+    img {
+        width: 60%;
+        height: auto;
+    }
+    table {
+        width: auto;
+        height: auto;
+    }
+    .tdprop2 {
+        width: 44px;
+        height: 39px;
+    }
+    .imgprop {
+        width: 29px;
+        height: 29px;
+    }
+    .tdprop {
+        width: 42px;
+        height: 42px;
+    }
+    .design {
+        width: 100px;
+        font-size: 11px;
+    }
+    .stuck {
+        font-size: 11px;
+        padding-right: 300px;
+    }
+    .numberstyle {
+        font-size: 9px;
+    }
+    .styletd {
+        font-size: 9px;
+    }
+}
+
+@media screen and (min-width:450px) and (max-width: 549px) {
+    pre {
+        font-size: 10px;
+    }
+    .next {
+        font-size: 12px;
+    }
+    table {
+        width: auto;
+        height: auto;
+    }
+    .tdprop2 {
+        width: 50px;
+        height: 45px;
+    }
+    .imgprop {
+        width: 35px;
+        height: 35px;
+    }
+    .tdprop {
+        width: 48px;
+        height: 48px;
+    }
+    .design {
+        width: 120px;
+        font-size: 14px;
+    }
+    .stuck {
+        font-size: 14px;
+        padding-right: 350px;
+    }
+    .numberstyle {
+        font-size: 12px;
+    }
+    .styletd {
+        font-size: 12px;
+    }
+}
+
+
+/* no need to change anything else */
+
+@media screen and (min-width:550px) and (max-width: 724px) {
+    pre {
+        font-size: 12px;
+    }
+    .next {
+        font-size: 14px;
+    }
+}
